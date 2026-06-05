@@ -44,13 +44,13 @@ export default function Home() {
         </p>
         <a
           href={`mailto:${BOOKING_EMAIL}`}
-          className="text-white text-2xl font-semibold underline hover:text-gray-300 transition-colors"
+          className="text-white text-lg sm:text-2xl font-semibold underline hover:text-gray-300 transition-colors break-all"
         >
           {BOOKING_EMAIL}
         </a>
         <a
           href="tel:+15037579004"
-          className="text-white text-2xl font-semibold hover:text-gray-300 transition-colors"
+          className="text-white text-lg sm:text-2xl font-semibold hover:text-gray-300 transition-colors"
         >
           (503) 757-9004
         </a>
