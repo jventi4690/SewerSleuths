@@ -24,7 +24,7 @@ export default function Home() {
     <main className="flex flex-col w-full max-w-full">
       <BackToTop />
       {/* ── HEADER ── white ───────────────────────────────────────────── */}
-      <header className="bg-white py-10 flex flex-col items-center border-b border-gray-100">
+      <header className="bg-white py-10 flex flex-col items-center border-b border-gray-100 overflow-hidden w-full">
         <Image
           src="/images/Full logo (text + image).png"
           alt="Sewer Sleuths logo"
