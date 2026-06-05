@@ -23,7 +23,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`${geist.variable} antialiased`}>
+    <html lang="en" className={`${geist.variable} antialiased overflow-x-hidden`}>
       <body className="bg-white text-gray-900 overflow-x-hidden">{children}</body>
     </html>
   );
