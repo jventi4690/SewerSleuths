@@ -31,7 +31,7 @@ export default function Home() {
           width={400}
           height={200}
           priority
-          className="max-w-md sm:max-w-lg md:max-w-2xl w-full h-auto"
+          className="max-w-[60vw] sm:max-w-lg md:max-w-2xl w-full h-auto"
         />
       </header>
 
