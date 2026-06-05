@@ -21,7 +21,7 @@ function PlaceholderImage({
 
 export default function Home() {
   return (
-    <main className="flex flex-col">
+    <main className="flex flex-col w-full max-w-full">
       <BackToTop />
       {/* ── HEADER ── white ───────────────────────────────────────────── */}
       <header className="bg-white py-10 flex flex-col items-center border-b border-gray-100">
@@ -194,7 +194,7 @@ export default function Home() {
       </section>
 
       {/* ── FOOTER ── black ───────────────────────────────────────────── */}
-      <footer className="bg-black py-6 px-10 flex flex-row items-center">
+      <footer className="bg-black py-6 px-6 flex flex-row items-center w-full">
         <div className="flex-1 flex items-center">
           <Image
             src="/images/Logo (white).png"
