@@ -24,7 +24,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`${geist.variable} antialiased`}>
-      <body className="bg-white text-gray-900">{children}</body>
+      <body className="bg-white text-gray-900 overflow-x-hidden">{children}</body>
     </html>
   );
 }
