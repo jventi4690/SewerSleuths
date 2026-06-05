@@ -28,10 +28,11 @@ export default function Home() {
         <Image
           src="/images/Full logo (text + image).png"
           alt="Sewer Sleuths logo"
-          width={400}
-          height={200}
+          width={0}
+          height={0}
+          sizes="100vw"
           priority
-          className="max-w-[60vw] sm:max-w-lg md:max-w-2xl w-full h-auto"
+          className="w-[70%] sm:w-[50%] md:w-[40%] h-auto"
         />
       </header>
 
