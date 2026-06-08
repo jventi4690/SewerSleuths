@@ -35,7 +35,7 @@ export default function Home() {
 
       {/* ── BOOK A SERVICE ── black ───────────────────────────────────── */}
       <section className="bg-black py-16 px-6 flex flex-col items-center gap-6 text-center">
-        <h2 className="text-3xl font-bold text-white">Book a Service</h2>
+        <h2 className="text-2xl sm:text-3xl font-bold text-white">Book a Service</h2>
         <p className="text-gray-300 max-w-xl">
           Schedule Sewer Scopes and Radon Tests, or inquire about pricing, by contacting us at
         </p>
@@ -58,7 +58,7 @@ export default function Home() {
 
       {/* ── ABOUT US ── white ─────────────────────────────────────────── */}
       <section className="bg-white py-16 px-6 max-w-4xl mx-auto w-full">
-        <h2 className="text-3xl font-bold text-gray-900 mb-6 text-center">
+        <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-6 text-center">
           About Us
         </h2>
         <p className="text-gray-600 leading-relaxed text-center max-w-2xl mx-auto mb-12">
@@ -91,7 +91,7 @@ export default function Home() {
       {/* ── WHY SEWER HEALTH ── white ─────────────────────────────────── */}
       <section className="bg-gray-50 py-16 px-6">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-3xl font-bold text-gray-900 mb-6 text-center">
+          <h2 className="text-xl sm:text-3xl font-bold text-gray-900 mb-6 text-center">
             Why Is Sewer Health Important?
           </h2>
           <p className="text-gray-600 leading-relaxed text-center max-w-2xl mx-auto mb-14">
@@ -154,7 +154,7 @@ export default function Home() {
       {/* ── RADON GAS ── white ────────────────────────────────────────── */}
       <section className="bg-white py-16 px-6">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-3xl font-bold text-gray-900 mb-6 text-center">
+          <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-6 text-center">
             What Is Radon Gas?
           </h2>
           <div className="flex flex-col md:flex-row gap-10 items-center">
