@@ -25,14 +25,11 @@ export default function Home() {
       <BackToTop />
       {/* ── HEADER ── white ───────────────────────────────────────────── */}
       <header className="bg-white py-10 flex flex-col items-center border-b border-gray-100 overflow-hidden w-full">
-        <Image
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <img
           src="/images/Full logo (text + image).png"
           alt="Sewer Sleuths logo"
-          width={0}
-          height={0}
-          sizes="100vw"
-          priority
-          className="w-[70%] sm:w-[50%] md:w-[40%] h-auto"
+          style={{ width: "60%", maxWidth: "500px", height: "auto" }}
         />
       </header>
 
@@ -195,32 +192,58 @@ export default function Home() {
       </section>
 
       {/* ── FOOTER ── black ───────────────────────────────────────────── */}
-      <footer className="bg-black py-6 px-6 flex flex-row items-center w-full">
-        <div className="flex-1 flex items-center">
+      <footer className="bg-black py-6 px-6 w-full">
+        {/* Mobile: stacked layout */}
+        <div className="flex flex-col items-center gap-4 sm:hidden">
           <Image
             src="/images/Logo (white).png"
             alt="Sewer Sleuths logo"
-            width={80}
-            height={80}
-            className="h-16 w-auto"
+            width={60}
+            height={60}
+            className="h-12 w-auto"
           />
-        </div>
-        <div className="flex-1 flex items-center justify-center">
           <Image
             src="/images/Sewer Sleuths Text Sideways.png"
             alt="Sewer Sleuths"
-            width={200}
-            height={80}
-            className="h-16 w-auto invert"
+            width={120}
+            height={60}
+            className="h-12 w-auto invert"
           />
-        </div>
-        <div className="flex-1 flex items-center justify-end">
           <a
             href={`mailto:${BOOKING_EMAIL}`}
             className="text-gray-400 text-sm hover:text-white transition-colors"
           >
             {BOOKING_EMAIL}
           </a>
+        </div>
+        {/* Desktop: side by side layout */}
+        <div className="hidden sm:flex flex-row items-center">
+          <div className="flex-1 flex items-center">
+            <Image
+              src="/images/Logo (white).png"
+              alt="Sewer Sleuths logo"
+              width={80}
+              height={80}
+              className="h-16 w-auto"
+            />
+          </div>
+          <div className="flex-1 flex items-center justify-center">
+            <Image
+              src="/images/Sewer Sleuths Text Sideways.png"
+              alt="Sewer Sleuths"
+              width={200}
+              height={80}
+              className="h-16 w-auto invert"
+            />
+          </div>
+          <div className="flex-1 flex items-center justify-end">
+            <a
+              href={`mailto:${BOOKING_EMAIL}`}
+              className="text-gray-400 text-sm hover:text-white transition-colors"
+            >
+              {BOOKING_EMAIL}
+            </a>
+          </div>
         </div>
       </footer>
     </main>
