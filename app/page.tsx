@@ -25,11 +25,13 @@ export default function Home() {
       <BackToTop />
       {/* ── HEADER ── white ───────────────────────────────────────────── */}
       <header className="bg-white py-10 flex flex-col items-center border-b border-gray-100 overflow-hidden w-full">
-        {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img
-          src="/images/Full logo (text + image).png"
+        <Image
+          src="/images/full-logo.png"
           alt="Sewer Sleuths logo"
-          style={{ width: "60%", maxWidth: "500px", height: "auto" }}
+          width={500}
+          height={250}
+          priority
+          className="w-[60%] max-w-[500px] h-auto"
         />
       </header>
 
