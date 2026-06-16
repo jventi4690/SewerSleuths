@@ -77,7 +77,7 @@ export default function Home() {
               alt="Richard"
               width={160}
               height={160}
-              className="w-40 h-40 rounded-full object-cover"
+              className="w-40 h-40 rounded-full object-cover scale-125"
             />
             <p className="font-semibold text-gray-900 text-lg">Richard</p>
             <p className="text-gray-500 text-sm">Owner</p>
