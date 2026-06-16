@@ -72,17 +72,23 @@ export default function Home() {
         </p>
         <div className="flex flex-col sm:flex-row justify-center gap-12">
           <div className="flex flex-col items-center gap-3">
-            <PlaceholderImage
-              className="w-40 h-40 rounded-full"
-              label="Richard"
+            <Image
+              src="/images/richard.png"
+              alt="Richard"
+              width={160}
+              height={160}
+              className="w-40 h-40 rounded-full object-cover"
             />
             <p className="font-semibold text-gray-900 text-lg">Richard</p>
             <p className="text-gray-500 text-sm">Owner</p>
           </div>
           <div className="flex flex-col items-center gap-3">
-            <PlaceholderImage
-              className="w-40 h-40 rounded-full"
-              label="Jude"
+            <Image
+              src="/images/jude.png"
+              alt="Jude"
+              width={160}
+              height={160}
+              className="w-40 h-40 rounded-full object-cover"
             />
             <p className="font-semibold text-gray-900 text-lg">Jude</p>
             <p className="text-gray-500 text-sm">Sewer Technician</p>
